@@ -1,0 +1,78 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Mon Aug 14 09:32:37 2017
+| Host         : DESKTOP-CJEFK8K running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file single_cycle_cpu_display_control_sets_placed.rpt
+| Design       : single_cycle_cpu_display
+| Device       : xc7a200t
+-----------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    21 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |              35 |            9 |
+| No           | Yes                   | No                     |              26 |           13 |
+| Yes          | No                    | No                     |             192 |          112 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               4 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------+---------------------------------+------------------+------------------+----------------+
+|   Clock Signal  |          Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-----------------+---------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG  |                                 |                  |                2 |              2 |
+|  clkout_reg_n_0 |                                 | cpu/SR[0]        |                2 |              3 |
+|  cpu_clk_BUFG   | cpu/pc0[31]                     | cpu/SR[0]        |                1 |              4 |
+|  cpu_clk_BUFG   | cpu/rf_module/DM_reg[1][7][0]   |                  |                1 |              8 |
+|  cpu_clk_BUFG   | cpu/rf_module/DM_reg[2][7]_0[0] |                  |                3 |              8 |
+|  cpu_clk_BUFG   | cpu/rf_module/DM_reg[3][7][0]   |                  |                3 |              8 |
+|  cpu_clk_BUFG   | cpu/rf_module/E[0]              |                  |                1 |              8 |
+|  cpu_clk_BUFG   |                                 | cpu/SR[0]        |               13 |             26 |
+|  cpu_clk_BUFG   | cpu/rf_module/rf[1][31]_i_1_n_0 |                  |               18 |             32 |
+|  cpu_clk_BUFG   | cpu/rf_module/rf[2][31]_i_1_n_0 |                  |               20 |             32 |
+|  cpu_clk_BUFG   | cpu/rf_module/rf[3][31]_i_1_n_0 |                  |               20 |             32 |
+|  cpu_clk_BUFG   | cpu/rf_module/rf[4][31]_i_1_n_0 |                  |               23 |             32 |
+|  cpu_clk_BUFG   | cpu/rf_module/rf[5][31]_i_1_n_0 |                  |               23 |             32 |
+|  clk_IBUF_BUFG  |                                 | cpu/SR[0]        |                7 |             32 |
++-----------------+---------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 3      |                     1 |
+| 4      |                     1 |
+| 8      |                     4 |
+| 16+    |                     7 |
++--------+-----------------------+
+
+

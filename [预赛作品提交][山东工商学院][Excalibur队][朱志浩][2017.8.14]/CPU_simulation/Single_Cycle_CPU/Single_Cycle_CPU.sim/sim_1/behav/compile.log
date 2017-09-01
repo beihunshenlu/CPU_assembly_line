@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/single_cycle_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_cpu
+WARNING: [VRFC 10-756] identifier rs_value is used before its declaration [D:/CPU/Single_Cycle_CPU/single_cycle_cpu.v:110]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/single_cycle_cpu_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_cpu_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/cpu_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU/Single_Cycle_CPU/Single_Cycle_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

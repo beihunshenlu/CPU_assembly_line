@@ -1,0 +1,13 @@
+0.6
+2017.1
+Apr 14 2017
+19:10:27
+D:/CPU/Single_Cycle_CPU/Single_Cycle_CPU.sim/sim_1/behav/glbl.v,1492045073,verilog,,,,glbl,,,,,,,,
+D:/CPU/Single_Cycle_CPU/adder.v,1502629216,verilog,,,,adder,,,,,,,,
+D:/CPU/Single_Cycle_CPU/alu.v,1502629223,verilog,,,,alu,,,,,,,,
+D:/CPU/Single_Cycle_CPU/cpu_testbench.v,1502588603,verilog,,,,testbench,,,,,,,,
+D:/CPU/Single_Cycle_CPU/data_ram.v,1502629234,verilog,,,,data_ram,,,,,,,,
+D:/CPU/Single_Cycle_CPU/inst_rom.v,1502629241,verilog,,,,inst_rom,,,,,,,,
+D:/CPU/Single_Cycle_CPU/regfile.v,1502629245,verilog,,,,regfile,,,,,,,,
+D:/CPU/Single_Cycle_CPU/single_cycle_cpu.v,1502629251,verilog,,,,single_cycle_cpu,,,,,,,,
+D:/CPU/Single_Cycle_CPU/single_cycle_cpu_display.v,1502673135,verilog,,,,single_cycle_cpu_display,,,,,,,,

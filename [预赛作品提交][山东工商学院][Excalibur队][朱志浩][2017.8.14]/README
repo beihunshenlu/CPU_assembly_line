@@ -1,0 +1,26 @@
+目录结构：
+	+--CPU_bit
+	|
+	|--CPU_simulation
+	|
+	|--MIPS微系统设计文档
+	|
+	|--README
+
+
+说明：
+CPU_bit：目录中的工程为已生成bit文件的工程，打开即可烧写至FPGA
+
+CPU_simulation：此工程仅供仿真，仿真后的波形图中：
+clk：时钟
+resetn：七段数码管复位
+btn_clk：指令单步执行(上板后由SW_STEP0控制，具体操作见"MIPS微系统设计文档")
+switch[1:0]：控制输出cpu_pc, cpu_inst, rf_data, mem_data(具体操作见"MIPS微系统设计文档")
+rf_switch[1:0]: 控制输出寄存器中的内容(具体操作见"MIPS微系统设计文档")
+mem_switch[3:0]：控制输出内存单元的内容(具体操作见"MIPS微系统设计文档")
+figure[7:0]：BCD - 七段数码管显示
+seg_signal[7:0]：七段数码管片选信号
+
+MIPS微系统设计文档：CPU设计说明
+
+README：建议notepad++打开
